@@ -5,6 +5,7 @@ body {
   font-weight: 300;
   overflow-x: hidden;
   margin: 0;
+  background-color: #1DA07F;
 }
 
 h1,
@@ -42,5 +43,13 @@ p {
   padding: 118px 84px 126px 96px;
   height: 100vh;
   display: flex;
-  background-color: #1DA07F;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 62px 90px;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
 }
