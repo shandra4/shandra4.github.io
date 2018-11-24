@@ -5,12 +5,33 @@
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.description {
+  max-width: 524px;
+
+  h1 {
+    font-size: 56px;
+    line-height: 76px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
 
 .pictures {
   flex: 1;
+  display: flex;
   align-items: center;
 
   img {
@@ -25,6 +46,18 @@
 }
 
 .exp {
+  display: flex;
+  align-items: center;
   width: 188px;
+  height: 120px;
   background-color: rgba(255, 255, 255, 0.6);
+  padding: 0 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  img {
+    margin: 0;
+  }
 }

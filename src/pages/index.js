@@ -10,7 +10,7 @@ import shandra3 from "../assets/images/shandra3.png";
 
 import nowmad from "../assets/images/nowmad.png";
 import daylight from "../assets/images/daylight.png";
-import dmi from "../assets/images/giz.png";
+import dmi from "../assets/images/dmi.png";
 import tripfuser from "../assets/images/tripfuser.png";
 import giz from "../assets/images/giz.png";
 
@@ -22,12 +22,14 @@ const IndexPage = () => (
         <img src={shandra2} alt="Profile" />
         <img src={shandra3} alt="Profile" />
       </div>
-      <h1>
-        Shandra Menendez
-      </h1>
-      <h2>
-        Check my <a href="#" target="_blank" rel="noopener noreferrer">career path</a>, get a feeling of my <a href="#" target="_blank" rel="noopener noreferrer">design skills</a> and learn what I took with me from <a href="#" target="_blank" rel="noopener noreferrer">my experiences</a>.
-      </h2>
+      <div className={styles.description}>
+        <h1>
+          Shandra Menendez
+        </h1>
+        <h2>
+          Check my <a href="http://behance.net/shandraich" target="_blank" rel="noopener noreferrer">career path</a>, get a feeling of my <a href="https://www.linkedin.com/in/shandramenendez" target="_blank" rel="noopener noreferrer">design skills</a> and learn what I took with me from <a href="https://medium.com/@shandra.aich" target="_blank" rel="noopener noreferrer">my experiences</a>.
+        </h2>
+      </div>
     </div>
     <div className={styles.right}>
       <div className={styles.exp}>

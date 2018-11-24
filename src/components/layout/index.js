@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import './reset.scss'
 import './fonts.scss'
-import styles from './styles.module.scss'
+import './index.scss'
 
 const Layout = ({ children }) => (
   <>
@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
     >
       <html lang="en" />
     </Helmet>
-    <div className={styles.content}>
+    <div className="content">
       {children}
     </div>
   </>

@@ -1,0 +1,46 @@
+body {
+  font-family: "Avenir Next", sans-serif;
+  font-size: 18px;
+  color: #3a3c4a;
+  font-weight: 300;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avenir Next",serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0 0 20px;
+  color: #FFFFFF;
+  font-size: 26px;
+  line-height: 34px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Avenir',serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.content {
+  padding: 118px 84px 126px 96px;
+  height: 100vh;
+  display: flex;
+  background-color: #1DA07F;
+}
