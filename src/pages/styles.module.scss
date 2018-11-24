@@ -1,0 +1,30 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.pictures {
+  flex: 1;
+  align-items: center;
+
+  img {
+    width: 180px;
+    height: 180px;
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+}
+
+.exp {
+  width: 188px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
