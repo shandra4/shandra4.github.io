@@ -27,26 +27,26 @@ const IndexPage = () => (
           Shandra Menendez
         </h1>
         <h2>
-          Check my <a href="http://behance.net/shandraich" target="_blank" rel="noopener noreferrer">career path</a>, get a feeling of my <a href="https://www.linkedin.com/in/shandramenendez" target="_blank" rel="noopener noreferrer">design skills</a> and learn what I took with me from <a href="https://medium.com/@shandra.aich" target="_blank" rel="noopener noreferrer">my experiences</a>.
+          Check my <a href="https://www.linkedin.com/in/shandramenendez" target="_blank" rel="noopener noreferrer">career path</a>, get a feeling of my <a href="http://behance.net/shandraich" target="_blank" rel="noopener noreferrer">design skills</a> and learn what I took with me from <a href="https://medium.com/@shandra.aich" target="_blank" rel="noopener noreferrer">my experiences</a>.
         </h2>
       </div>
     </div>
     <div className={styles.right}>
-      <div className={styles.exp}>
+      <a className={styles.exp} href="https://www.nowmad.io/" target="_blank" rel="noopener noreferrer">
         <img src={nowmad} alt="Nowmad" />
-      </div>
-      <div className={styles.exp}>
+      </a>
+      <a className={styles.exp} href="https://www.daylightdesign.com/" target="_blank" rel="noopener noreferrer">
         <img src={daylight} alt="Daylight" />
-      </div>
-      <div className={styles.exp}>
+      </a>
+      <a className={styles.exp} href="https://dminc.com/" target="_blank" rel="noopener noreferrer">
         <img src={dmi} alt="Dmi" />
-      </div>
-      <div className={styles.exp}>
+      </a>
+      <a className={styles.exp} href="https://www.tripfuser.com/" target="_blank" rel="noopener noreferrer">
         <img src={tripfuser} alt="Tripfuser" />
-      </div>
-      <div className={styles.exp}>
+      </a>
+      <a className={styles.exp} href="https://www.giz.de/de/weltweit/35382.html" target="_blank" rel="noopener noreferrer">
         <img src={giz} alt="GIZ" />
-      </div>
+      </a>
     </div>
   </Layout>
 )
