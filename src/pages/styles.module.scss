@@ -17,10 +17,10 @@
 
   h1 {
     font-size: 56px;
-    line-height: 76px;
+    line-height: 70px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 24px;
+    margin-bottom: 21px;
   }
 
   h2 {
@@ -33,6 +33,7 @@
   flex: 1;
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 
   img {
     width: 180px;
@@ -64,8 +65,30 @@
 }
 
 @media (max-width: 1024px) {
+  .pictures {
+    padding-bottom: 0;
+  }
+
   .description {
     margin: 60px 0;
+  }
+
+  .right {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 640px;
+  }
+
+  .exp {
+    width: 48%;
+
+    &:nth-child(2n + 1) {
+      margin-right: 4%;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 4%;
+    }
   }
 }
 
@@ -91,20 +114,6 @@
     h2 {
       font-size: 26px;
       line-height: 32px;
-    }
-  }
-
-  .right {
-    display: inline-block;
-    align-self: normal;
-  }
-
-  .exp {
-    float: left;
-    width: 47%;
-
-    &:nth-child(2n + 1) {
-      margin-right: 3%;
     }
   }
 }
